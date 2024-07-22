@@ -1,0 +1,65 @@
+.main {
+    float: left;
+    width: 70%;
+    margin-top: 7px;
+    background-color:bisque;
+    height: 200px;
+    text-align: center;
+
+  }
+  .box{
+    overflow:auto; gap: 20px; display: flex;justify-content: center;
+  }
+  .head{
+    background-color:#e5e5e5;padding:5px;text-align:center;
+}
+.footer{
+    background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;
+  }
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 30%;
+height: 200px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  .one{
+    width: 25%;
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+  }
+  .two{
+    width: 25%;
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+  }
+  .three{
+    width: 25%;
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .one, .two,.three {
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .one, .two,.three {
+      width: 100%;
+    }
+}
+
+
